@@ -9,8 +9,8 @@ class MvideoSpider(scrapy.Spider):
     start_urls = [
         'https://www.mvideo.ru/apple/iphone',
         'https://www.mvideo.ru/stiralnye-i-sushilnye-mashiny-2427'
-        #'https://www.mvideo.ru/apple/ipad',
-        #'https://www.mvideo.ru/apple/mac'
+        'https://www.mvideo.ru/apple/ipad',
+        'https://www.mvideo.ru/apple/mac'
     ]
 
     def parse(self, response):
